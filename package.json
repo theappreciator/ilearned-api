@@ -1,0 +1,26 @@
+{
+  "name": "ilearned-api",
+  "version": "0.0.1",
+  "description": "api for ilearned",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theappreciator/ilearned-api.git"
+  },
+  "author": "Jess Tucker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theappreciator/ilearned-api/issues"
+  },
+  "homepage": "https://github.com/theappreciator/ilearned-api#readme",
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.4",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9",
+    "nodemon": "^2.0.15"
+  }
+}
